@@ -1,0 +1,48 @@
+.heder {
+	border: 1px solid #ececec;
+}
+
+.heder__conteiner {
+	display: flex;
+	align-items: center;
+}
+
+.heder__logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	letter-spacing: 0.03em;
+	color: var(--heder-logo-color);
+	margin-right: 93px;
+}
+
+.heder__part {
+	color: var(--heder-logo-color-sub);
+}
+
+.heder-contact {
+	display: flex;
+	margin-left: auto;
+	gap: 50px;
+}
+
+.heder-contact__link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+	color: var(--heder-mail-tel);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+		color: var(--heder-mail-tel-hover-focus);
+	}
+}
+
+.heder-contact__icon {
+	fill: currentColor;
+}

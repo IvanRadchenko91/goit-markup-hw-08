@@ -1,0 +1,26 @@
+//utils styles
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+//base styles
+@import "./base/animations";
+@import "./base/base";
+@import "./base/reset";
+
+//componets styles
+@import "./components/section";
+@import "./components/container";
+@import "./components/heder";
+@import "./components/nav";
+@import "./components/main";
+@import "./components/benefits";
+@import "./components/about";
+@import "./components/overlay";
+@import "./components/comanda";
+@import "./components/social";
+@import "./components/client";
+@import "./components/address";
+@import "./components/footer";
+@import "./components/distribution";
+@import "./components/portfolio";
+@import "./components/modal";
