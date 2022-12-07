@@ -41,15 +41,15 @@
 	}
 
 		// desctop
-		
-			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_lg@1x.jpg);
+		@media screen and (min-width: 769px) {
+			background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/Img_lg@1x.jpg);
 	
 			@media (min-device-pixel-ratio: 2),
 			(min-resolution: 192dpi),
 			(min-resolution: 2dppx) {
-				background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/img_lg@2x.jpg);
+				background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/Img_lg@2x.jpg);
 			}
-		
+		}
 }
 
 .main__title {
